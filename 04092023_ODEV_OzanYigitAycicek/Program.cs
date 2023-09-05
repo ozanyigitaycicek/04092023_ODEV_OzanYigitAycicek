@@ -13,20 +13,7 @@ namespace _04092023_ODEV_OzanYigitAycicek
         {
 
 
-
             #region ODEV
-            //Console.WriteLine("Lütfen Kullanıcı Adınızı Giriniz : ");
-            //string UserName = Console.ReadLine();
-            //Console.WriteLine("Kullanıcı Adınız" + " " + UserName + " " + "olarak kayıt edilmiştir.");
-            //Console.WriteLine("Lütfen Kullanıcı Şifre 1 Giriniz : ");
-            //string UserPassword1 = Console.ReadLine();
-            //Console.WriteLine("Lütfen Kullanıcı Şifre 2 Giriniz : ");
-            //string UserPassword2 = Console.ReadLine();
-            //Console.WriteLine("Kullanıcı Adı ve Şifreleriniz Başarıyla Kaydedilmiştir");
-            #endregion
-
-
-            #region ODEV FAZLADAN
             Console.WriteLine("Lütfen Kullanıcı Adınızı Giriniz : \n");
             string UserName = Console.ReadLine();
             Console.WriteLine("");
@@ -96,26 +83,6 @@ namespace _04092023_ODEV_OzanYigitAycicek
             Console.WriteLine(result2);
             bool result3 = UserPassword2 == UserPassword2Check;
             Console.WriteLine(result3);
-
-
-            //Console.Write("--|> PASSWORD: ");
-            //SecureString pass = new SecureString();
-            //ConsoleKeyInfo key2;
-            //do
-            //{
-            //    key = Console.ReadKey(true);
-            //    if (key.Key != ConsoleKey.Backspace)
-            //    {
-            //        pass.AppendChar(key.KeyChar);
-            //        Console.Write("*");
-            //    }
-            //    else
-            //    {
-            //        pass.RemoveAt(pass.Length - 1);
-            //        Console.Write("\b \b");
-            //    }
-            //}
-            //while (key.Key != ConsoleKey.Enter);
 
             #endregion
 
